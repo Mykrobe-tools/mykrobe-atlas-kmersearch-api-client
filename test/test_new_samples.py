@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import kmersearch-api-client
-from kmersearch-api-client.models.new_samples import NewSamples  # noqa: E501
-from kmersearch-api-client.rest import ApiException
+import kmersearch_api_client
+from kmersearch_api_client.models.new_samples import NewSamples  # noqa: E501
+from kmersearch_api_client.rest import ApiException
 
 
 class TestNewSamples(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestNewSamples(unittest.TestCase):
     def testNewSamples(self):
         """Test NewSamples"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = kmersearch-api-client.models.new_samples.NewSamples()  # noqa: E501
+        # model = kmersearch_api_client.models.new_samples.NewSamples()  # noqa: E501
         pass
 
 

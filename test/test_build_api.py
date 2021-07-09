@@ -14,16 +14,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import kmersearch-api-client
-from kmersearch-api-client.api.build_api import BuildApi  # noqa: E501
-from kmersearch-api-client.rest import ApiException
+import kmersearch_api_client
+from kmersearch_api_client.api.build_api import BuildApi  # noqa: E501
+from kmersearch_api_client.rest import ApiException
 
 
 class TestBuildApi(unittest.TestCase):
     """BuildApi unit test stubs"""
 
     def setUp(self):
-        self.api = kmersearch-api-client.api.build_api.BuildApi()  # noqa: E501
+        self.api = kmersearch_api_client.api.build_api.BuildApi()  # noqa: E501
 
     def tearDown(self):
         pass

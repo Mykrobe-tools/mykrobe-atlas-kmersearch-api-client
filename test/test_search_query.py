@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import kmersearch-api-client
-from kmersearch-api-client.models.search_query import SearchQuery  # noqa: E501
-from kmersearch-api-client.rest import ApiException
+import kmersearch_api_client
+from kmersearch_api_client.models.search_query import SearchQuery  # noqa: E501
+from kmersearch_api_client.rest import ApiException
 
 
 class TestSearchQuery(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSearchQuery(unittest.TestCase):
     def testSearchQuery(self):
         """Test SearchQuery"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = kmersearch-api-client.models.search_query.SearchQuery()  # noqa: E501
+        # model = kmersearch_api_client.models.search_query.SearchQuery()  # noqa: E501
         pass
 
 

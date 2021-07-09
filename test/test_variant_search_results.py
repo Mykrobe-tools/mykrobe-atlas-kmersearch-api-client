@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import kmersearch-api-client
-from kmersearch-api-client.models.variant_search_results import VariantSearchResults  # noqa: E501
-from kmersearch-api-client.rest import ApiException
+import kmersearch_api_client
+from kmersearch_api_client.models.variant_search_results import VariantSearchResults  # noqa: E501
+from kmersearch_api_client.rest import ApiException
 
 
 class TestVariantSearchResults(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestVariantSearchResults(unittest.TestCase):
     def testVariantSearchResults(self):
         """Test VariantSearchResults"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = kmersearch-api-client.models.variant_search_results.VariantSearchResults()  # noqa: E501
+        # model = kmersearch_api_client.models.variant_search_results.VariantSearchResults()  # noqa: E501
         pass
 
 
