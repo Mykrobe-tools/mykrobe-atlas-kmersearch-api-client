@@ -15,7 +15,7 @@ import re  # noqa: F401
 
 import six
 
-from kmersearch-api-client.configuration import Configuration
+from kmersearch_api_client.configuration import Configuration
 
 
 class SearchResult(object):

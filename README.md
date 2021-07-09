@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import kmersearch-api-client 
+import kmersearch_api_client 
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import kmersearch-api-client
+import kmersearch_api_client
 ```
 
 ## Getting Started
@@ -47,16 +47,16 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import kmersearch-api-client
-from kmersearch-api-client.rest import ApiException
+import kmersearch_api_client
+from kmersearch_api_client.rest import ApiException
 from pprint import pprint
 
 
 # Defining host is optional and default to http://kmersearch-api-service/api/v1
 configuration.host = "http://kmersearch-api-service/api/v1"
 # Create an instance of the API class
-api_instance = kmersearch-api-client.BuildApi(kmersearch-api-client.ApiClient(configuration))
-new_samples = kmersearch-api-client.NewSamples() # NewSamples | 
+api_instance = kmersearch_api_client.BuildApi(kmersearch_api_client.ApiClient(configuration))
+new_samples = kmersearch_api_client.NewSamples() # NewSamples | 
 
 try:
     api_response = api_instance.build_post(new_samples)

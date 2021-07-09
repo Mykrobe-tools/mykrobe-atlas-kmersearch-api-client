@@ -1,4 +1,4 @@
-# kmersearch-api-client.VariantSearchApi
+# kmersearch_api_client.VariantSearchApi
 
 All URIs are relative to *http://kmersearch-api-service/api/v1*
 
@@ -17,13 +17,13 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import kmersearch-api-client
-from kmersearch-api-client.rest import ApiException
+import kmersearch_api_client
+from kmersearch_api_client.rest import ApiException
 from pprint import pprint
 
 # Create an instance of the API class
-api_instance = kmersearch-api-client.VariantSearchApi()
-variant_search_query = kmersearch-api-client.VariantSearchQuery() # VariantSearchQuery | 
+api_instance = kmersearch_api_client.VariantSearchApi()
+variant_search_query = kmersearch_api_client.VariantSearchQuery() # VariantSearchQuery | 
 
 try:
     api_response = api_instance.variant_search_post(variant_search_query)

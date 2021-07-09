@@ -1,4 +1,4 @@
-packageName: kmersearch-api-client
+packageName: kmersearch_api_client
 projectName: kmersearch_api_client
 packageVersion: 1.0.0
 generateSourceCodeOnly: false
