@@ -1,0 +1,1 @@
+openapi-generator generate -i https://raw.githubusercontent.com/Mykrobe-tools/mykrobe-atlas-kmersearch-api/main/specs/openapi.yaml -g python -c codegen_configuration.yaml -o .
